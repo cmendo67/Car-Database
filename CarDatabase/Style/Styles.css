@@ -1,0 +1,353 @@
+/**
+ * Name: Carlos Mendoza
+ * CIN:304972595
+ *
+ * Description: For this assignment we will be designing custom nodes with
+ * three categories on which to group.We will be implementing a new version
+ * of a linked list that has possible sublists descending from each node. We
+ * will also be creating a gui because we need to show a visual representation
+ * of my linked list structure.
+ */
+.wallpaper{
+-fx-background-image:url("wallpaper.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+
+.menu2{
+-fx-background-image:url("menu2.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+
+.add{
+-fx-background-image:url("add.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+
+.add2{
+-fx-background-image:url("add2.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+
+.add3{
+-fx-background-image:url("add3.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.title{
+-fx-background-image:url("title.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.add3{
+-fx-background-image:url("add3.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.dodge{
+-fx-background-image:url("dodge.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.clear{
+-fx-background-image:url("clear.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.title2{
+-fx-background-image:url("title2.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.audir8{
+-fx-background-image:url("audir8.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.gt500{
+-fx-background-image:url("gt500.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.corvette{
+-fx-background-image:url("corvette.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.corvette2{
+-fx-background-image:url("corvette2.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.bmw{
+-fx-background-image:url("bmw.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.gtr{
+-fx-background-image:url("gtr.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.gtr2{
+-fx-background-image:url("gtr2.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.ferrari{
+-fx-background-image:url("ferrari.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.ferrariinterior{
+-fx-background-image:url("ferrariinterior.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.track{
+-fx-background-image:url("track.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+
+.bmwinterior{
+-fx-background-image:url("bmwinterior.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.mclaren{
+-fx-background-image:url("mclaren.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+.mclareninterior{
+-fx-background-image:url("mclareninterior.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+
+.fordgt{
+-fx-background-image:url("fordgt.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+
+.textfield{
+   -fx-font-family: "Quicksand";
+   -fx-font-size: 18;
+   -fx-padding: 1,1,1,1;
+   -fx-border-color: grey;
+   -fx-border-width: 2;
+   -fx-border-radius: 1;
+   -fx-border: gone;
+   -fx-background-color: transparent;
+   -fx-text-fill: grey;
+}
+
+
+.titleText{
+-fx-font-size:50;
+-fx-font-weight:700;
+}
+
+.menu{
+-fx-background-image:url("menu.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: cover;
+-fx-background-position: center center;
+}
+
+.circles{
+-fx-stroke:white;
+-fx-fill-color:white;
+-fx-stroke-width:60;
+}
+
+.menutitle{
+-fx-stroke:white;
+-fx-fill-color:white;
+}
+
+.discs{
+-fx-stroke:navy blue;
+-fx-fill-color:black;
+-fx-stroke-width:60;
+}
+
+
+.discs2{
+-fx-stroke: #4f4c4c;
+-fx-fill-color:black;
+-fx-stroke-width:60;
+
+}
+
+.quitbuttoncolor{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(black, white);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 18px;
+-fx-text-fill: #311c09;
+}
+
+.quit2buttoncolor{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(black, Red);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 18px;
+-fx-text-fill: white;
+}
+
+
+.quit3buttoncolor{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(yellow, black);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 18px;
+-fx-text-fill: black;
+}
+.quit4buttoncolor{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(black,blue);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 18px;
+-fx-text-fill: black;
+}
+.quit5buttoncolor{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(black,white);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 18px;
+-fx-text-fill: black;
+}
+
+.quit6buttoncolor{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(blue,red);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 18px;
+-fx-text-fill: black;
+}
+
+.enter{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(black, white);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 50;
+-fx-text-fill: #311c09;
+}
+
+.enter2{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(white,black);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 50;
+-fx-text-fill: black;
+}
+.enter3{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(red,black);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 50;
+-fx-text-fill: black;
+}
+.enter4{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(red,black);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 50;
+-fx-text-fill: black;
+}
+
+.enter5{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(white,white);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 50;
+-fx-text-fill: black;
+}
+
+.enter6{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(white,white);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 50;
+-fx-text-fill: black;
+}
+.enter7{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-color: linear-gradient(orange,black);
+-fx-font-weight: bold;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 50;
+-fx-text-fill: black;
+}
+
+.menu2buttoncolor {
+    -fx-background-color: linear-gradient(black, black);
+    -fx-background-radius: 30;
+    -fx-background-insets: -10;
+    -fx-font-weight: bold;
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+}
+
+.quitbuttoncolor2:hover{
+-fx-background-insets: 0,9 9 8 9,9,10,11;
+-fx-background-radius: 50;
+-fx-padding: 15 30 15 30;
+-fx-font-size: 18px;
+-fx-text-fill: #311c09;
+}
